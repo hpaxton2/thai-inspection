@@ -18,7 +18,3 @@ grade_date date,
 record_date date, 
 inspection_type varchar
 )
-
-COPY Public."InspectionData" 
-FROM 'Users\hannahpaxton\Desktop\DOHMH_New_York_City_Restaurant_Inspection_Results.csv' 
-DELIMITER ',' CSV HEADER ;
