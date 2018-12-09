@@ -1,6 +1,7 @@
 # thai-inspection
 Goal: Clean and visualize a health inspection data set
-1. Using the language and data store of your choice, create an ETL (Extract, Transform & Load) job to ingest this ~500k rows DOHMH New York City Restaurant Inspection Results data set from NYC Open Data
+
+<strong>1. Using the language and data store of your choice, create an ETL (Extract, Transform & Load) job to ingest this ~500k rows DOHMH New York City Restaurant Inspection Results data set from NYC Open Data</strong>
 
 <UL>
 <LI>Since SQL was my language of choice, I performed an ELT job rather than an ETL. 
@@ -8,7 +9,7 @@ Goal: Clean and visualize a health inspection data set
 <LI>The details for each violation were not pertinent to the task at hand and were causing duplicate rows for each restaurant, so all repeating elements were grouped in a SQL query while leaving only the count of violation for each grade date.
 </UL>
 
-2. In addition to submitting working code for the ETL job, please include the schema design along with a quick explanation for the choices made.
+<strong>2. In addition to submitting working code for the ETL job, please include the schema design along with a quick explanation for the choices made.</strong>
 
 <UL>
 <LI>My schema design consists of a new base table and a column list. 
@@ -16,7 +17,7 @@ Goal: Clean and visualize a health inspection data set
 <LI>The data types of variable character, integer, and date were assigned to the columns based off their format. The exceptions I ran into were building, zipcode, and phone, which would normally have a data type of integer, but were set to variable character to provide for a smooth load that accounted for entries such as "N/A."
 </UL>
 
-3. Using your data store, generate a list of the top 10 Thai restaurants that meet your friend's criteria. You could simply provide a SQL query to answer this and export it into a data viz tool, but it be amazing if you could build a web frontend to answer the question.
+<strong>3. Using your data store, generate a list of the top 10 Thai restaurants that meet your friend's criteria. You could simply provide a SQL query to answer this and export it into a data viz tool, but it be amazing if you could build a web frontend to answer the question.</strong>
 
 <UL>
 <LI>I created a SQL query that both transformed the data into the group as I described in step one and also created a list of restaurants that matched the given criteria.
@@ -24,7 +25,7 @@ Goal: Clean and visualize a health inspection data set
 <LI>The PostgreSQL table was connected to a Tableau Public account to be appropriately visualized and exported to the web. 
 </UL>
   
-  4. Create a data viz or two showing the results of the question.
+<strong>4. Create a data viz or two showing the results of the question.</strong>
   
 <UL>
 <LI>I created a map that geocoded the location of the top 10 thai restaurants by using the Google Maps API through Tableau. I also formatted phone numbers by borough in the case of wanting to make a reservation and made a bar chart so my friend can view the cleanest possible option within the top 10 restaurants. 
