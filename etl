@@ -1,0 +1,3 @@
+CREATE TABLE Public."InspectionData"(camis int, dba varchar, boro varchar, building varchar, street varchar, zip varchar, phone varchar, cuisine_description varchar, inspection_date date, action varchar, violation_code varchar, violation_description varchar, critical_flag varchar, score int, grade varchar, grade_date date, record_date date, inspection_type varchar)
+
+COPY Public."InspectionData" FROM 'Users\hannahpaxton\Desktop\DOHMH_New_York_City_Restaurant_Inspection_Results.csv' DELIMITER ',' CSV HEADER ;
