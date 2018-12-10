@@ -1,5 +1,5 @@
 SELECT camis, dba, boro, building, street, zip, phone, cuisine_description, grade, MAX(grade_date), COUNT(dba)
-FROM public."InspectionData"
+FROM Public."InspectionData"
 WHERE cuisine_description = 'Thai'
 AND grade IN ('A','B')
 GROUP BY camis, dba, boro, building, street, zip, phone, cuisine_description, grade, grade_date
