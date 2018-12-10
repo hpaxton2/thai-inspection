@@ -12,7 +12,7 @@ Goal: Clean and visualize a health inspection data set
 <strong>2. In addition to submitting working code for the ETL job, please include the schema design along with a quick explanation for the choices made.</strong>
 
 <UL>
-  <LI>My <a href="/hpaxton2/thai-inspection/blob/master/schema">schema design</a> consists of a new base table and a column list. 
+  <LI>My <a href="https://github.com/hpaxton2/thai-inspection/blob/master/schema">schema design</a> consists of a new base table and a column list. 
 <LI>I created my column list to preserve all columns in the original CSV.
 <LI>The data types of variable character, integer, and date were assigned to the columns based off their format. The exceptions I ran into were building, zipcode, and phone, which would normally have a data type of integer, but were set to variable character to provide for a smooth load that accounted for entries such as "N/A."
 </UL>
