@@ -28,7 +28,7 @@ Goal: Clean and visualize a health inspection data set
 <strong>4. Create a data viz or two showing the results of the question.</strong>
   
 <UL>
-<LI>I created a map that geocoded the location of the top 10 thai restaurants by using the Google Maps API through Tableau. I also formatted phone numbers by borough in the case of wanting to make a reservation and made a bar chart of total 2018 violations so my friend can view the cleanest possible option within the top 10 restaurants. 
+<LI>I created a map that geocoded the location of the top 10 thai restaurants by using the Google Maps API through Tableau. In addition, I formatted the phone numbers by borough in the case of wanting to make a reservation and made a bar chart of total 2018 violations so my friend can view the cleanest possible option within the top 10 restaurants. 
 <LI>I also created a table without the limit of 10 applied so my friend could view all Thai restaurants that meet their expectations by borough in the case they have exhausted their top 10 and still want an index of their options. 
 <LI>Working Tableau visualization: https://public.tableau.com/views/thai_viz_0/Top10ThaiRestaurants?:embed=y&:display_count=yes&publish=yes. 
 </UL>
